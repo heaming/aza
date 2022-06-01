@@ -1,7 +1,8 @@
 package com.aza.common;
 
+import lombok.Data;
 
-//==>����Ʈȭ���� �𵨸�(�߻�ȭ/ĸ��ȭ)�� Bean 
+@Data
 public class Search {
 	
 	///Field
@@ -9,6 +10,12 @@ public class Search {
 	private String searchCondition;
 	private String searchKeyword;
 	private int pageSize;
+
+	private String searchId;
+	private String lessonCode;
+	private String searchStartDate;
+	private String searchEndDate;
+
 
 	private int endRowNum;
 	private int startRowNum;
@@ -18,6 +25,38 @@ public class Search {
 	}
 	
 	///Method
+	public String getLessonCode() {
+		return lessonCode;
+	}
+	
+	public void setLessonCode(String lessonCode) {
+		this.lessonCode = lessonCode;
+	}
+	
+	public String getSearchStartDate() {
+		return searchStartDate;
+	}
+	
+	public void setSearchStartDate(String searchStartDate) {
+		this.searchStartDate = searchStartDate;
+	}
+	
+	public String getSearchEndDate() {
+		return searchEndDate;
+	}
+	
+	public void setSearchEndDate(String searchEndDate) {
+		this.searchEndDate = searchEndDate;
+	}
+	
+	public String getSearchId() {
+		return searchId;
+	}
+	
+	public void setSearchId(String searchId) {
+		this.searchId = searchId;
+	}
+
 	public int getPageSize() {
 		return pageSize;
 	}
@@ -57,9 +96,8 @@ public class Search {
 
 	@Override
 	public String toString() {
-		return "Search [currentPage=" + currentPage + ", searchCondition="
-				+ searchCondition + ", searchKeyword=" + searchKeyword
-				+ ", pageSize=" + pageSize + ", endRowNum=" + endRowNum
+		return "Search [currentPage=" + currentPage + ", searchCondition=" + searchCondition + ", searchKeyword="
+				+ searchKeyword + ", pageSize=" + pageSize + ", searchId=" + searchId + ", endRowNum=" + endRowNum
 				+ ", startRowNum=" + startRowNum + "]";
 	}
 }
