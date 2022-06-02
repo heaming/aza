@@ -2,7 +2,6 @@ package com.aza.common;
 
 import lombok.Data;
 
-@Data
 public class Search {
 	
 	///Field
