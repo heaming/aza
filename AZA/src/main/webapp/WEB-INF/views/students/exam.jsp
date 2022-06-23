@@ -97,8 +97,8 @@
 				<c:if test="${user.role == 'parent'}">
 					<div class="row justify-content-center gx-5">
 						<div id="selectStudentName" class="row justify-content-end col-md-8 col-lg-6"></div>
-						<div class="row justify-content-end col-md-8 col-lg-6">
-							<div class="pt-6 pb-2 mt-3 col-6 col-sm-3">
+						<div class="row justify-content-center col-md-8 col-lg-6">
+							<div class="pt-0 mt-3 col-6 col-sm-3">
 								<div class="nav-item dropdown pt-3" id="myDropdown">
 									<a class="nav-link dropdown-toggle pb-0" href="#"
 										data-bs-toggle="dropdown"> 자녀 선택 </a>
