@@ -20,6 +20,9 @@
 <script defer src="/resources/javascript/alert/alertUI.js"></script>
 <script defer src="/resources/javascript/students/teacherHome.js"></script>
 
+<!-- ¿ë½ÂÃß°¡ -->
+<!-- <script defer src="/resources/javascript/students/teacherHome2.js"></script> -->
+
 <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 <!-- Load Favicon-->
 <link href="assets/img/favicon.ico" rel="shortcut icon"

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
+
 <!DOCTYPE html>
 
 <html>
@@ -82,15 +83,20 @@
 						<div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8">
 							<!-- <div class="card card-raised shadow-10 mt-5 mt-xl-10 mb-4"> -->
 							<div>
+
 								<div class="card-body p-5 mt-6">
+
 									<!-- Auth header with logo image-->
 									<div class="text-center">
 
 
+
 										<img class="mb-3" src="/resources/img/logo2.png" alt="..."
 											style="height: 150px">
+
 										<!-- <div class="subheading-1 mb-5">AZA에 오신걸 환영합니다!</div> -->
 									</div>
+
 									<form name="loginForm">
 										<div class="mb-4" align="center" id="id_text">
 											<mwc-textfield class="w-100" label="ID" outlined>
@@ -102,11 +108,13 @@
 										<div class="mb-4" align="center">
 											<mwc-textfield class="w-100" label="password" outlined
 												icontrailing="visibility_off" type="password">
+
 											<input type="password" name="password" id="password" class="form-control"
 												style="border: 1px solid #e3e4ed; background-color: transparent;"
 												value="" placeholder="비밀번호"></input> </mwc-textfield>
 										</div>
 										<mwc-tab-bar class="nav nav-tabs" role="tablist">
+
 										</mwc-tab-bar>
 
 										<div class="m-3" align="center">
@@ -140,6 +148,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"></script> -->
 	<!-- Load global scripts-->
+
 	<!--   <script type="module" src="/resources/common/material.js"></script>
    <script src="/resources/common/scripts.js"></script>
    

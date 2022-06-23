@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
+
 	pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
@@ -8,12 +9,13 @@
 <meta charset="EUC-KR">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Aza : main</title>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="/webjars/stomp-websocket/stomp.min.js"></script>
 <script src="/webjars/sockjs-client/sockjs.min.js"></script>
 <!-- JavaScript Bundle with Popper -->
+
 <script
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
@@ -30,18 +32,18 @@
 	rel="stylesheet">
 <!-- Load Favicon-->
 <link href="assets/img/favicon.ico" rel="shortcut icon"
-	type="image/x-icon">
+   type="image/x-icon">
 <!-- Load Material Icons from Google Fonts-->
 <link
-	href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
-	rel="stylesheet">
+   href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+   rel="stylesheet">
 <!-- Load Simple DataTables Stylesheet-->
 <link
-	href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
-	rel="stylesheet">
+   href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
+   rel="stylesheet">
 <!-- Roboto and Roboto Mono fonts from Google Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-	rel="stylesheet">
+   rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500"
 	rel="stylesheet">
 <link
@@ -50,9 +52,9 @@
 <link rel="stylesheet"
 	href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	crossorigin="anonymous">
+   href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+   crossorigin="anonymous">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -110,6 +112,7 @@
 								aria-labelledby="dropdownMenuNotifications">
 							</ul>
 						</div>
+
 
 
 						<!-- User profile dropdown-->
@@ -331,6 +334,7 @@
 			<!-- /////////////////////////////////////////////////////////////////////////////// -->
 
 
+
 			<div
 				class="messagePopup hidden position-absolute end-0 mr-3 none-scroll"
 				id="messagePopup" style="z-index: 9999; top: 30px;">
@@ -353,6 +357,7 @@
 										placeholder="학생 이름 검색" aria-label="Username" />
 								</div>
 							</div>
+
 
 							<div id="listOther" class="card-body overflow-auto"
 								style="height: 500px;"></div>
@@ -422,7 +427,6 @@
 		crossorigin="anonymous"></script>
 	<!-- 	<script src="/resources/javascript/common/charts/demos/dashboard-chart-area-light-demo.js"></script> -->
 	<script type="text/javascript">
-
 </script>
 </body>
 </html>

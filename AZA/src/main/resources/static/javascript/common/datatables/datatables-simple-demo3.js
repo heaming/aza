@@ -1,3 +1,6 @@
+
+//link href= cdn.datatables.net/plug-ins/1.12.1/dataRender/datetime.js
+
 window.addEventListener('DOMContentLoaded', event => {  
     const datatablesSimplePaymentList = document.getElementById('datatablesSimplePaymentList');
 
@@ -99,6 +102,7 @@ window.addEventListener('DOMContentLoaded', event => {
                {
                    targets: [5],
                    orderData: [0, 1],
+
                },
                {
                    targets: [6],

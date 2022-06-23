@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html;" pageEncoding="utf-8"%>
+
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
@@ -6,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="EUC-KR">
 <title>listPayment</title>
 
 
@@ -68,8 +69,8 @@
 
 </head>
 <body class="nav-fixed bg-light">
-   <!-- Layout content-->
-    <!-- Layout content-->
+	<!-- Layout content-->
+	 <!-- Layout content-->
             <div id="layoutDrawer_content">
                 <!-- Main page content-->
                 <main>
@@ -80,7 +81,8 @@
                             <div class="card-header bg-transparent px-4">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="me-4">
-                                        <h2 class="display-6 mb-0">¼ö³³</h2>
+                                        <h2 class="display-6 mb-0">¼ö³³ ¸ñ·Ï</h2>
+
                                         <div class="card-text">Payment List</div>
                                     </div>
 <!--                                     <div class="d-flex gap-2">
@@ -102,24 +104,25 @@
                         <hr class="my-5" />
                     </div>
                 </main>
-   <!-- Footer-->
-   <footer>
-      <%-- <button type="button" id="open-messagePopup" class="btn float btn-lg btn-icon"><i class="material-icons">mail_outline</i></button>
-      <jsp:include page="/WEB-INF/views/common/home.jsp" /> --%>
-   </footer>
-   </div>
-     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<!-- Footer-->
+	<footer>
+		<%-- <button type="button" id="open-messagePopup" class="btn float btn-lg btn-icon"><i class="material-icons">mail_outline</i></button>
+		<jsp:include page="/WEB-INF/views/common/home.jsp" /> --%>
+	</footer>
+	</div>
+	  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
-   <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-beta.10/chart.min.js"
-      crossorigin="anonymous"></script>
-   <!-- <script src="/resources/javascript/common/charts/chart-defaults.js"></script> -->
-   <script src="/resources/javascript/common/prism.js"></script>
-   <script src="/resources/javascript/common/material.js"></script>
-   <script src="/resources/javascript/common/scripts.js"></script>
-   <script src="/resources/javascript/common/datatables/datatables-simple-demo3.js"></script>
-<!--    <script src="/resources/javascript/common/charts/demos/dashboard-chart-area-light-demo.js"></script> -->
-   <script type="text/javascript">
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-beta.10/chart.min.js"
+		crossorigin="anonymous"></script>
+	<!-- <script src="/resources/javascript/common/charts/chart-defaults.js"></script> -->
+	<script src="/resources/javascript/common/prism.js"></script>
+	<script src="/resources/javascript/common/material.js"></script>
+	<script src="/resources/javascript/common/scripts.js"></script>
+	<script src="/resources/javascript/common/datatables/datatables-simple-demo3.js"></script>
+<!-- 	<script src="/resources/javascript/common/charts/demos/dashboard-chart-area-light-demo.js"></script> -->
+	<script type="text/javascript">
 </script>
 </body>
 <%-- <body>
@@ -128,6 +131,32 @@
 
 
 <h3>PAYMENT LIST</h3>
+<<<<<<< HEAD
+<form>				
+${user.role }
+
+
+
+
+               
+               <table id="datatablesSimplePaymentList">
+               
+               </table> 
+
+</form>
+ 	  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-beta.10/chart.min.js"
+		crossorigin="anonymous"></script>
+	<!-- <script src="/resources/javascript/common/charts/chart-defaults.js"></script> -->
+	<script src="/resources/javascript/common/prism.js"></script>
+	<script src="/resources/javascript/common/material.js"></script>
+	<script src="/resources/javascript/common/scripts.js"></script>
+	<script src="/resources/javascript/common/datatables/datatables-simple-demo3.js"></script>
+
+	<script type="text/javascript">
+=======
 <form>            
 ${user.role }
 
@@ -152,6 +181,7 @@ ${user.role }
    <script src="/resources/javascript/common/datatables/datatables-simple-demo3.js"></script>
 
    <script type="text/javascript">
+>>>>>>> refs/heads/HMHM
 </script>
 </body> --%>
 </html>
