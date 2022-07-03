@@ -130,7 +130,8 @@ public class LessonRestController {
          for(Map<String,Object> item : items) {
             System.out.println("===============================");
             for(String field : fields) {
-               System.out.println(field+"->"+item.get(field));
+               System.out.println(field+"->"+item.get(field));      
+               
                if(field.equals("title")) {
                   lesson.setBookTitle(item.get(field));
                }
@@ -140,9 +141,9 @@ public class LessonRestController {
                if(field.equals("price")) {
                   lesson.setBookPrice(item.get(field));
                }
-//               if(field.equals("isbn")) {
-//                  lesson.setIsbn(item.get(field));
-//               }
+				/*
+				 * if(field.equals("isbn")) { lesson.setIsbn(item.get(field)); }
+				 */
                if(field.equals("publisher")) {
                   lesson.setPublisher(item.get(field));
                }
@@ -168,6 +169,12 @@ public class LessonRestController {
       }
       
       try {
+    	  
+    	  
+    	  
+    	  
+    	  
+    	  
          lessonService.addLessonBook(lesson);
       } catch (Exception e){
          System.out.println("<<<<<<<<>>>>>>>>");
