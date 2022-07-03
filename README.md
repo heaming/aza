@@ -68,7 +68,15 @@ The file explorer is accessible using the button in left corner of the navigatio
 All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
 ### 학생관리 - 출석
+![main_attendace](https://user-images.githubusercontent.com/85826542/177026047-e739b864-4c98-4d28-a9a2-3be7c92c85f8.gif)
 
+1. 학생 출석 등록
+	*  com.aza.service.students.impl.StudentsServiceImpl.addStudentsAttendance()
+		* 현재 시간을 sysdate로 받아, 당일 진행하는 수업 목록을 HOME에서 출력
+		* 출석 등록을 원하는 수업을 클릭하면, 해당 수업을 듣는 학생 목록 출력
+		* 해당 학생의 출석 상태를 등록, 수정할 수 있음
+		* 출석 등록 시, 해당 학생의 부모님에게 알림 전송
+		* 조퇴, 도망으로 수정 시, 해당 학생의 부모님에게 알림 전송
 You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
 ## Delete a file
