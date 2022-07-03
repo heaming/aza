@@ -6,7 +6,7 @@
 
 ## Contents
 
--   [ABOUT](https://github.com/heaming/aza#ABOUT)
+-   [프로젝트 개요](https://github.com/heaming/aza#about)
 -   [SAMPLE CODE](https://github.com/heaming/aza#sample-code)
 	- 학생관리-출석
 	- 학생관리-성적
