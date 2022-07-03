@@ -7,7 +7,7 @@
 ## Contents
 
 -   [ABOUT](https://github.com/heaming/aza#ABOUT)
--   [SAMPLE CODE](https://github.com/gitpoint/git-point#SAMPLE CODE)
+-   [SAMPLE CODE](https://github.com/heaming/aza#SAMPLE-CODE)
 	- 학생관리-출석
 	- 학생관리-성적
 	- 채팅
