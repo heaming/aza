@@ -50,7 +50,7 @@
 * 구현 영상 : https://drive.google.com/file/d/1gptKkNvCIh_jwRwpRKe7ffj2_0yuMhbI/view?usp=sharing
 * 요약 PPT : 
 https://drive.google.com/file/d/1Nqb813pXgP_7iNaknPhfCRpmO69CbUge/view?usp=sharing
-* 프로젝트 보고서 :
+* 프로젝트 분석설계서 :
 https://drive.google.com/file/d/11Vca6Uh9ZjoLYHcvNb2NnpGv-_VJjWCl/view?usp=sharing
 
 ## SAMPLE CODE
