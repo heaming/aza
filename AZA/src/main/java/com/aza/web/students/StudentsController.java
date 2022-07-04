@@ -285,11 +285,10 @@ public class StudentsController {
 		User student = userService.getUser(studentId);
 
 		System.out.println("student : "+student);
-
+		
+		search.setSearchCondition("0");
 		search.setSearchId(studentId);
 		List lessons = (List) studentsService.listStudentsRecordByStudent(search, studentId).get("list");
-
-		//List<Lesson> lessons = (List<Lesson>) lessonService.listLessonStudent(search, studentId).get("list");
 
 		if(lessonCode == null || lessonCode.length() < 1) {
 			lessonCode = ((Students)lessons.get(0)).getLessonCode();
@@ -318,7 +317,7 @@ public class StudentsController {
 
 	//========================>Note
 	
-	//ÀÌ¹ÌÁö ¾÷·Îµå
+	//ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½
 	
 	@RequestMapping( value="addStudentsNote", method=RequestMethod.GET )
 	public ModelAndView addStudentsNote(HttpSession session) throws Exception{

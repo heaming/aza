@@ -171,8 +171,9 @@ public class StudentsRestController {
 		System.out.println("studentId : "+studentId);
 		
 		if(lessonCode == null || lessonCode.length() < 1) {
-			List lessons = (List) lessonService.listLessonStudent(search, studentId).get("list");
-			lessonCode = ((Lesson)lessons.get(0)).getLessonCode();	
+			search.setSearchCondition("0");
+			List lessons = (List) studentsService.listStudentsRecordByStudent(search, studentId).get("list");
+			lessonCode = ((Students)lessons.get(0)).getLessonCode();	
 		}
 		
 		System.out.println("lessonCode : "+lessonCode);
@@ -245,8 +246,6 @@ public class StudentsRestController {
 			
 		}
 		
-		
-		
 		Search search = new Search();
 		search.setCurrentPage(1);
 		search.setPageSize(1);
@@ -286,7 +285,8 @@ public class StudentsRestController {
 	}
 	
 	@RequestMapping(value = {"listStudentsExam", "listStudentsExam/{studentId}"})
-	public Map<String, Object> listStudentsExam(HttpSession session, @RequestBody(required = false) Students students, @PathVariable(value = "studentId", required = false) String kidId) throws Exception{
+	public Map<String, Object> listStudentsExam
+					(HttpSession session, @RequestBody(required = false) Students students, @PathVariable(value = "studentId", required = false) String kidId) throws Exception{
 		
 		System.out.println("listExam RestController Start...");
 
@@ -303,7 +303,7 @@ public class StudentsRestController {
 				System.out.println("parent firstKid :" + studentId);
 			} else {
 				studentId = kidId;
-				System.out.println(studentId + "???anjdla");
+				System.out.println("kidId : "+studentId);
 			}
 			
 		} else {

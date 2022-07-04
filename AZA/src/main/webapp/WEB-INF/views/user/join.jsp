@@ -117,7 +117,7 @@ body>div.container {
                                  가능합니다:D</div>
                            </div>
                            <!-- Register new account form-->
-                           <form>
+                           <form id="#form">
                            
                            <div class="row">
                            <label for="role">회원유형을 선택하세요</label>
@@ -466,7 +466,7 @@ body>div.container {
 
          
          
-         $("form").attr("method" , "POST").attr("action" , "/user/addUser").submit();
+         $("#form").attr("method" , "POST").attr("action" , "/user/addUser").submit();
       }
       
       
