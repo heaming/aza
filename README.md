@@ -52,7 +52,7 @@
 * 요약 PPT : 
 https://drive.google.com/file/d/1Nqb813pXgP_7iNaknPhfCRpmO69CbUge/view?usp=sharing
 * 프로젝트 분석설계서 :
-https://drive.google.com/file/d/11Vca6Uh9ZjoLYHcvNb2NnpGv-_VJjWCl/view?usp=sharing
+https://drive.google.com/file/d/1d1HDFC-xsA2rDLwvch73dOdBQEMMp5zh/view?usp=sharing
 
 ***
 
